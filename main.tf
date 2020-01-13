@@ -1,5 +1,5 @@
   resource "null_resource" "example" {
       provisioner "local-exec" {
-          command="uname -a"
+          command="lsb_release -a"
       }
   }
