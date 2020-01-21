@@ -3,6 +3,6 @@
           uuid = uuid()
       }
       provisioner "local-exec" {
-          command="gcloud --help"
+          command="uname -a; lsb_release;"
       }
   }
